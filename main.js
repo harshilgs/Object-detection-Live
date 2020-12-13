@@ -30,7 +30,7 @@ function draw()
         for(i = 0; i < objects.length; i++)
         {
             document.getElementById("status").innerHTML = "Status : Object Detected";
-            document.getElementById("Number_of_Objects").innerHTML = "Number of Objects Detected are : " + objects.length;
+            document.getElementById("Number_of_Object").innerHTML = "Number of Objects Detected are : " + objects.length;
 
 
             fill(r,g,b);
